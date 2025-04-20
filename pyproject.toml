@@ -6,3 +6,6 @@ target-version = ['py312']
 py_version=312
 line_length=120
 multi_line_output=3
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
