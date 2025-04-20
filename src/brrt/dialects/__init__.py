@@ -1,7 +1,7 @@
 from pathlib import Path
-from yaml import safe_load
 from typing import List
 
+from yaml import safe_load
 
 _CURRENT_DIR = Path(__file__).parent
 DEFAULT_ENCODING = "ascii"
