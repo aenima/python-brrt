@@ -1,0 +1,47 @@
+---
+model_name: LC-10
+manufacturer: Star
+line_length: 80
+commands:
+  beep: "\x07"
+  reset: "\e@"
+fonts: 
+  Draft:    "\ex\x00"
+  Courier:  "\ex\x01\ek\x00"
+  Sanserif: "\ex\x01\ek\x01"
+  Orator:   "\ex\x01\ek\x02"
+  OratorSC: "\ex\x01\ek\x03"
+styles: 
+  bold:
+    - "\eE"
+    - "\eF"
+  italic:
+    - "\e\x04"
+    - "\e\x05"
+  narrow:
+    - "\e\x0F"
+    - "\x12"
+  proportional:
+    - "\ep\x01"
+    - "\ep\0"
+  shadow:
+    - "\eG"
+    - "\eH"
+  subscript:
+    - "\e\x01"
+    - "\eT"
+  superscore:
+    - "\e_\x01"
+    - "\e_\0"
+  superscript:
+    - "\eS\0"
+    - "\eT"
+  undersccore:
+    - "\e-\x01"
+    - "\e-\0"
+  wide:
+    - "\eW\x01"
+    - "\eW\0"
+pitch: 
+  elite: "\eM"
+  pica: "\eP"
